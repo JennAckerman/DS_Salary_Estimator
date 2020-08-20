@@ -57,9 +57,8 @@ def get_jobs(keyword, location, num_jobs, verbose, path, slp_time):
     driver.find_element_by_id('filter_fromAge').click()
     time.sleep(5)
     driver.find_element_by_xpath('.//ul[@class="css-1dv4b0s ew8xong0"]//li[@value="7"]').click()
+    
    
-    
-    
     jobs = []
 
     while len(jobs) < num_jobs:  #If true, should be still looking for new jobs.
@@ -167,18 +166,19 @@ def get_jobs(keyword, location, num_jobs, verbose, path, slp_time):
                 print("Revenue: {}".format(revenue))
                 print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
 
-            jobs.append({"Job Title" : job_title,
-            "Salary Estimate" : salary_estimate,
+            jobs.append({
+            "Job Title" : job_title,
             "Job Description" : job_description,
+            "Salary Estimate" : salary_estimate,
             "Rating" : rating,
-            "Company Name" : company_name,
             "Location" : location,
             "Size" : size,
             "Founded" : founded,
             "Type of ownership" : type_of_ownership,
             "Industry" : industry,
             "Sector" : sector,
-            "Revenue" : revenue,})
+            "Revenue" : revenue,
+            "Company Name" : company_name,})
             #add job to jobs
 
         #Clicking on the "next page" button
