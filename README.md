@@ -1,5 +1,5 @@
 # Data Science Job Position Organizer: Project Overview
-### Main Goals Met 
+### Main Goals 
 -Filtering job postings on Glassdoor to best fit the users' criteria by scraping Glassdoor info and creating a **Decision Tree**
 
 -Boosting users' strengths by finding most requested job requirements 
