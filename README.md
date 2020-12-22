@@ -11,8 +11,8 @@
 * Built a client facing API using flask.
 
 ## Code and Resources used
-**Python:** 3.7.6
-**Packages:** pandas, pumpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
+**Python:** 3.7.6 
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
 **For Web Framework Requirements:** pip install -r requirements.txt
 **Guided DS Salaries Project:** https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
 **Scraper Git Hub:** https://github.comarapfaik/scraping-glassdoor-selenium
