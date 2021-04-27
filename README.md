@@ -58,4 +58,14 @@ After scraping the data, I needed to clean it up so that it was usable for my mo
 # EDA
 I looked at the distributions of the data and the value counts for the various categorical variables.  Here are some data visualization highlights.
 
+* ![alt text](job_title.png "Distribution of different job titles")
+* ![alt text](seniority.png "Distribution of different seniorities")
+* ![alt text](Avg_Salary.png "Average Salary For Job Title")
+* ![alt text](Avg_Salary_Sen.png "Average Salary For Job Title by Seniority")
+* ![alt text](industry.png "Distribution of different job postings across industries")
+* ![alt text](Company.png "Distribution of different job postings across industries")
+* ![alt text](Collinearity.png "Distribution of different job postings across industries")
 
+
+# Productionization
+In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
